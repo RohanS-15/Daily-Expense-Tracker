@@ -6,6 +6,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Daily Expense Tracker",
       home: Scaffold(
         appBar: AppBar(
